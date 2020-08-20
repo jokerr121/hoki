@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=https://securecloud-dt.com?a=69706&c=194530&oc=85397&sr=t&s1=115402&s2=xnnmi5f3e0b2d00453321816958&s3=PASS&vt=1597901614002&h=51c05431d2c0443c90afb503bbe70e990fc0591d&req=https%3A%2F%2Fsecurecloud-dt.com%2F%3Fa%3D69706%26c%3D194530%26oc%3D85397%26s1%3D115402%26s3%3DPASS%26s2%3Dxnnmi5f3e0b2d00453321816958&us=00000000000000000000000000000000"/>
+    </noscript>
+</head>
+<body>
+<script type="text/javascript" src="//gdmconvtrck.com/user?a=69706&c=194530"></script>
+<script type="text/javascript">
+    (function(destination, pixelsJson, entityPixels, timeout) {
+        var pixelsArr = [];
+
+        var addPixels = function (pixels) {
+            if (Array.isArray(pixels)) {
+                var re = /\.js($|\?|#)/;
+                for (var i = 0; i < pixels.length; i++) {
+                    var pixel = pixels[i];
+                    if (typeof pixel === "string") {
+                        pixelsArr.push({ src: pixel, type: re.test(pixel) ? "js" : "img" });
+                    }
+                }
+            }
+        }
+
+        try {
+            addPixels(entityPixels);
+
+            var pixels = JSON.parse(pixelsJson);
+
+            addPixels(pixels);
+
+            if (typeof CDTracking !== "undefined") {
+                new CDTracking(destination, pixelsArr).run(timeout);
+            }
+
+        } catch(e) {
+            console.error(e);
+        }
+
+    })("https://securecloud-dt.com?a=69706&c=194530&oc=85397&sr=t&s1=115402&s2=xnnmi5f3e0b2d00453321816958&s3=HOKI&vt=1597901614002&h=51c05431d2c0443c90afb503bbe70e990fc0591d&req=https%3A%2F%2Fsecurecloud-dt.com%2F%3Fa%3D69706%26c%3D194530%26oc%3D85397%26s1%3D115402%26s3%3DPASS%26s2%3Dxnnmi5f3e0b2d00453321816958&us=#user_id#", "[]", [], 1000);
+
+</script>
+</body>
+</html>
